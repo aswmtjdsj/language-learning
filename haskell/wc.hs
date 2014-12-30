@@ -1,0 +1,2 @@
+main = interact wordCount -- read from a file or standard input, count its characters, words and lines
+    where wordCount input = show (length (input)) ++ " " ++ show (length (words input)) ++ " " ++ show (length (lines input)) ++ "\n"
